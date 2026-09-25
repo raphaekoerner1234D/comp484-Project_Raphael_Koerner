@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+
+.containerIndex {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.containerIndex img {
+    width: 650px;
+    height: auto;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    border: 3px solid green;
+    width: fit-content;
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid green;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+
+.containerIndex h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerIndex h3 {
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.containerCyrus {
+    text-align: left;
+    margin: 50px;
+}
+
+.containerCyrus h1 {
+    text-align: center;
+}
+
+.flowRight {
+    float: right;
+    margin: 30px;
+}
+
+.investigate {
+    text-align: center;
+}
+
+.containerCyrus h2 {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.containerInfrastructure {
+    text-align: left;
+    margin: 50px;
+}
+
+.containerInfrastructure h1 {
+    text-align: center;
+}
+
+.containerInfrastructure h2 {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.flowLeft {
+    float: left;
+    margin: 30px;
+}
+
+.containerYears {
+    text-align: left;
+    margin: 50px;
+}
+
+.containerYears h1 {
+    text-align: center;
+}
+
+.containerYears h2 {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.containerYears p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.uList {
+    list-style-type: disc;
+    border: none;
+    width: fit-content;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lList {
+    display: list-item;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+

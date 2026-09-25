@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyrus the great</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- using container for css to adjust the elements inside -->
+    <div class="containerCyrus">
+        <header role="banner">
+            <h1> Cyrus the great </h1>
+            <p class="investigate"><em>Investigate the Persian History</em></p>
+            <nav role="navigation">
+                <ul>
+                    <!-- the links for switching the pages-->
+                    <li> <a href="index.html" title="Persian History"> Persian History </a></li>
+                    <li> <a href="infrastructure.html" title="The infrastructure of Persian Empire"> Infrastructure </a></li>
+                    <li> <a href="years.html" title="Timeline"> Timeline </a></li>
+                </ul>
+            </nav> 
+        </header>
+        <main role="main">
+            <article role="article">
+                <header>
+                    <img src="images/cyrus.jpg" alt="Cyrus the great" height="400" width="300" class="flowRight">
+                    <h2> Who was Cyrus the great ? </h2>
+                    <p>
+                        <!-- using span to select a text part without creating a new line
+                             i used it for "cyrus" here, it is the key word 
+                             dir = "rtl" stands for right to left, the persian language is from right to left
+                             the persian word stands for "cyrus" i also used the braces to show the persian version-->
+                        Cyrus<span dir="rtl"> &lang;کوروش&rang; </span>was the founder of the Great Persian Empire. 
+                        He is a character of great importance in history, 
+                        and a detailed history of his somewhat extraordinary birth 
+                        and upbringing are given by both Herodotus and Xenophon. 
+                        Although later Persian emperors were not known for their magnanimity, 
+                        Cyrus has a relatively good reputation as a just and merciful monarch. 
+                        He is credited by the Jews with overthrowing the much harsher Babylonian Empire, 
+                        and allowing 40,000 Jewish exiles to return to Judea. 
+                        There are numerous other examples of his leniency in dealing with conquered peoples. 
+                    </p>
+                </header>
+                <section>
+                    <!-- using "fieldset" to group related texts together
+                         legend is for the title of this group 
+                         used it here to group cintent about "persian empire and cyrus" -->
+                    <fieldset>
+                        <legend class="sectionTitle"> <h2> Persian Empire and Cyrus </h2></legend>
+                        <p>
+                            When Cyrus<span dir="rtl"> &lang;کوروش&rang; </span> was born, the Kingdom of Media, just southwest of the Caspian Sea 
+                            was the dominant kingdom in the region. 
+                            It's dominions ranged from eastern Asia Minor to the Indus Valley, and Persia, 
+                            a small kingdom on the Persian Gulf, was part of the Median Empire. 
+                            The Babylonian Kingdom to the southwest stretched from Mesopotamia to the Mediterranean, 
+                            and Lydia dominated most of Asia Minor. By the time Cyrus was thirty, 
+                            he had conquered all of Media, and Lydia, and was in the process of subduing Babylon. 
+                            By the time of his death, the entire region, from the West Coast of Asia Minor, 
+                            to the Indus Valley was combined into a Persian Empire, the largest and most powerful empire 
+                            the world had thus far ever known. The Persian Empire was to last from 550 B.C. 
+                            until its overthrow by Alexander the Great in 331 B.C. 
+                        </p>
+                    </fieldset>
+                </section>
+            </article>
+        </main>
+    </div>
+    <footer role="contentinfo">
+        <p>
+            Source:
+            <a href="https://www.heritage-history.com/index.php?c=resources&s=char-dir&f=cyrus1" title="Information about Cyrus the great" target="_blank">Cyrus the great</a>
+        </p>
+    </footer>
+</body>
+</html>
