@@ -1,3 +1,4 @@
+/* adjustment for the whole page */
 body {
     background-color: black;
     color: yellow;
@@ -8,7 +9,43 @@ body {
     padding-right: auto;
     
 }
+/* changed the style of the ul
+   for example width, border and the space to the boundaries of my sites
+   */ 
+ul {
+    list-style-type: none;
+    border: 3px solid green;
+    width: fit-content;
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+/* All my switch links are displayed in a row with a border design
+*/
+li {
+    display: inline-block;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+}
+/* link design */
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: red;
+}
+/* special desgin for all my footers */
+footer {
+    text-align: center;
+    border-top: 1px solid green;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
 
+/* Index html
+   All elements inside the div,h tags, p tags and so on were adjusted 
+   with these following functions
+   */   
 .containerIndex {
     text-align: center;
     margin-top: 100px;
@@ -18,35 +55,6 @@ body {
     width: 650px;
     height: auto;
     padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    border: 3px solid green;
-    width: fit-content;
-    margin: auto;
-    padding-left: 125px;
-    padding-right: 125px;
-}
-
-li {
-    display: inline-block;
-    border-right: 1px solid green;
-    border-left: 1px solid green;
-}
-
-a {
-    padding: 20px;
-    text-decoration: none;
-    color: red;
-}
-
-footer {
-    text-align: center;
-    border-top: 1px solid green;
-	font-size: .8em;
-	line-height: 4em;
-	margin-top: 1em;
 }
 
 .containerIndex h2 {
@@ -62,6 +70,9 @@ p {
     margin-bottom: 20px;
 }
 
+/* Cyrus html
+   special design adjustments for this html file 
+   */ 
 .containerCyrus {
     text-align: left;
     margin: 50px;
@@ -84,7 +95,9 @@ p {
     margin-top: 40px;
     padding-bottom: 20px;
 }
-
+/* Infrastructure html
+   special design adjustments for this html file 
+   */ 
 .containerInfrastructure {
     text-align: left;
     margin: 50px;
@@ -103,7 +116,9 @@ p {
     float: left;
     margin: 30px;
 }
-
+/* Years html
+   special design adjustments for this html file 
+   */ 
 .containerYears {
     text-align: left;
     margin: 50px;
@@ -123,7 +138,8 @@ p {
     padding-bottom: 20px;
     text-align: center;
 }
-
+/* used a different design for the "ul" inside my years html page 
+*/
 .uList {
     list-style-type: disc;
     border: none;
@@ -132,7 +148,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+/* used a different design for the "li" inside my years html page 
+*/
 .lList {
     display: list-item;
     border-right: none;
